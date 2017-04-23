@@ -9,7 +9,7 @@ nfs4:
     - ./exports:/etc/exports
 
     # Shares
-    - /mnt:/mnt
+    - .:/mnt
 
   ports:
     - "111:111/tcp"
